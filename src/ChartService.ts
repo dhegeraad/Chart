@@ -1,5 +1,1 @@
-export class ChartService{
-    public log() {
-        console.log('npm package');
-    }
-}
+export const Greeter = (name: string) => `Hello ${name}`; 
