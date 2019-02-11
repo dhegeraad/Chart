@@ -1,4 +1,6 @@
 import { IChartService } from 'jsksswo-charting';
-export declare class ChartService implements IChartService {
-    renderDonutDiagram: string;
+export declare module JsksCharting {
+    class ChartService implements IChartService {
+        renderDonutDiagram(): string;
+    }
 }
