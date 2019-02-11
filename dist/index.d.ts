@@ -1,2 +1,2 @@
-export * from '../src/ChartComponent';
-export * from '../src/ChartModule';
+export * from './ChartComponent';
+export * from './ChartModule';
