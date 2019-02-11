@@ -7,4 +7,5 @@ import { ChartComponent } from './ChartComponent';
   declarations: [ChartComponent],
   exports: [ChartComponent]
 })
+
 export class ChartModule { }

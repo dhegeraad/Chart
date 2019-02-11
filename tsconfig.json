@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
+    "baseUrl": "./",
     "noImplicitAny": false,
     "module": "commonjs",
     "target": "es5",
@@ -8,5 +9,14 @@
     "allowJs": false,
     "declaration": true,
     "experimentalDecorators": true
+  },
+  "paths": {
+    "example-ng6-lib": [
+      "dist/example-ng6-lib"
+    ],
+    "example-ng6-lib/*": [
+      "dist/example-ng6-lib/*"
+    ]
   }
+  
 }
