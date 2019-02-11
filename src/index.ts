@@ -1,4 +1,2 @@
-export * from "./ChartService";
-
-// Sample export of our own
-export var bas = "123";
+export * from './ChartComponent'
+export * from './ChartModule'

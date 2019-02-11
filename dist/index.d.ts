@@ -1,2 +1,2 @@
-export * from "./ChartService";
-export declare var bas: string;
+export * from './ChartComponent';
+export * from './ChartModule';
