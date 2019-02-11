@@ -1,5 +1,5 @@
 export * from "./ChartService";
-export * from "jsksswo-charting";
+export * from "jsksswo";
 
 
 // Sample export of our own

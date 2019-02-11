@@ -1,9 +1,10 @@
-import { IChartService } from 'jsksswo-charting';
+const EMOJI_SHORTCODES = /:[a-zA-Z1-9_]+:/g
 
-export module JsksCharting {
-    export class ChartService implements IChartService {
-        renderDonutDiagram(): string {
-            return 'this is a donut diagram';
-        }      
-    }
+export function findEmojis(str: string): string {
+  // add runtime check for use in JavaScript
+  if (typeof str !== 'string') {
+    return "";
+  }
+
+  return "blaat";
 }

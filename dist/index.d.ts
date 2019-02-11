@@ -1,3 +1,3 @@
 export * from "./ChartService";
-export * from "jsksswo-charting";
+export * from "jsksswo";
 export declare var bas: string;
