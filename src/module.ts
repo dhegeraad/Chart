@@ -1,5 +1,5 @@
 declare module 'jsksswo-charting' {
-    interface IChartService {
+    export interface IChartService {
         renderDonutDiagram(): string;
     }
 }
